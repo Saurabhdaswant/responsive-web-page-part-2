@@ -1,0 +1,115 @@
+/*! general styleling */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 21px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* img {
+  max-width: 100%;
+} */
+
+/*!main-color */
+
+:root {
+  --lightBrown: #f3eed9;
+  --brown: #824936;
+  --lightBlack: #222c2a;
+}
+
+/*! typography */
+
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+}
+
+h2 {
+  margin-bottom: 2rem;
+  font-size: 36px;
+  font-weight: 900;
+}
+/*! general container  */
+.container {
+  width: 80%;
+  max-width: 1128px;
+  margin: 0 auto;
+  background-color: var(--color);
+}
+
+.lightBrown {
+  background-color: var(--lightBrown);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.lightBrown p {
+  font-size: 18px;
+  font-weight: 300;
+}
+.lightBrown h1 {
+  color: var(--brown);
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.main__content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.main h2 {
+  color: var(--brown);
+}
+
+.paragraph {
+  color: var(--lightBlack);
+  display: flex;
+  text-align: left;
+  display: flex;
+  gap: 2rem;
+}
+
+.black .container,
+.browm .container {
+  display: flex;
+  padding: 5rem 0;
+  color: var(--lightBrown);
+  gap: 2rem;
+}
+
+.black {
+  background-color: var(--lightBlack);
+}
+
+.browm {
+  background-color: var(--brown);
+}
+img {
+  width: 100%;
+}
+
+.img,
+.img {
+  width: 50%;
+}
