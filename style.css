@@ -109,7 +109,87 @@ img {
   width: 100%;
 }
 
-.img,
 .img {
   width: 50%;
+}
+
+/* @media (min-width: 400px) {
+  .between {
+    padding: 1rem;
+  }
+
+  .btn {
+    padding: 1rem 2.5rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 510px) {
+  .between {
+    padding: 1.5rem;
+  }
+
+  .btn {
+    padding: 1.5rem 3rem;
+    font-size: 2rem;
+  }
+
+  .header--heading {
+    font-size: 3rem;
+  }
+
+  .message,
+  .left,
+  .guess {
+    font-size: 2rem;
+  }
+
+  .right input {
+    width: 20rem;
+    height: 20vh;
+    margin-top: 2rem;
+  }
+
+  .main-section {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 770px) {
+  header,
+  main {
+    max-width: 1000px;
+  }
+
+  .btn {
+    font-size: 2.2rem;
+  }
+
+  .header--heading {
+    font-size: 4rem;
+  }
+
+  .message,
+  .left,
+  .guess {
+    font-size: 2.3rem;
+  }
+} */
+
+@media (max-width: 700px) {
+  .paragraph {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1000px) {
+  .black .container,
+  .browm .container {
+    flex-wrap: wrap;
+  }
+
+  .img {
+    width: 70%;
+  }
 }
